@@ -26,14 +26,13 @@ const Header = ({ onLoginClick }) => {
             <div className="login-container">
                 <Button 
                    onClick={() => {
-                    console.log('Login button clicked');  // تأكيد الضغط في وحدة التحكم
-                    onLoginClick();  // استدعاء دالة onLoginClick
+                    onLoginClick();  // استدعاء دالة onLoginClick لعرض نموذج تسجيل الدخول
                 }}                    
-                       label="Login" 
-                    width='142px' 
-                    height='40px' 
-                    className="buttonD" 
-                    fontSize='2rem'
+                   label="Login" 
+                   width='142px' 
+                   height='40px' 
+                   className="buttonD" 
+                   fontSize='2rem'
                 />
             </div>
         </header>

@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
-// استيراد المكونات المخصصة
 import Header from '../Header/Header';
 import HeroSection from '../Hero/Hero';
 import Culture from '../Culture/Culture';
@@ -9,35 +7,28 @@ import Top from '../Top/Top';
 import Whyvisitiraq from '../Whyvisitiraq/Whyvisitraq';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
-import Login from '../Login/Login';  // استيراد مكون Login
-
-// استيراد التنسيق
+import Login from '../Login/Login';
 import "./home.css";
 
 const Home = () => {
   const navigate = useNavigate();
-  const [isLoginVisible, setIsLoginVisible] = useState(false);  // حالة التحكم في عرض نموذج تسجيل الدخول
+  const [isLoginVisible, setIsLoginVisible] = useState(false);
 
-  // دالة للتنقل إلى صفحة المكونات
   const handleNavigate = () => {
     navigate('/components');
   };
 
   return (
-    <div>
+    <div className={isLoginVisible ? 'modal-open' : ''}>
       <button onClick={handleNavigate}>Go to Components Page</button>
       
-      <Header onLoginClick={() => {
-        console.log("Login button clicked, setting isLoginVisible to true");
-        setIsLoginVisible(true);  // تحديث الحالة
-      }} />
+      <Header onLoginClick={() => setIsLoginVisible(true)} />
 
       {isLoginVisible && (
-        <div className="login-modal">
-          <Login onClose={() => {
-            console.log("Closing login modal");
-            setIsLoginVisible(false);  // تحديث الحالة لإغلاق النموذج
-          }} />
+        <div className="overlay" onClick={() => setIsLoginVisible(false)}>
+          <div onClick={(e) => e.stopPropagation()}>
+            <Login onClose={() => setIsLoginVisible(false)} />
+          </div>
         </div>
       )}
       

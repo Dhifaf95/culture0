@@ -29,7 +29,7 @@ function App() {
     <div>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/login' element={<Login />} />
+        <Route path='/Login' element={<Login />} />
 
         <Route path="/components" element={<ZainabHom/>} />  
         <Route path="/Comp1Bookpage" element={<Comp1Bookpage/>} /> 
