@@ -16,7 +16,6 @@ const Header = ({ onLoginClick }) => {
             <nav className="nav-links">
                 <ul className='list'>
                     <li><Link to="/">Home</Link></li>
-                    <li><ScrollLink to="culture" smooth={true} duration={500}>Culture</ScrollLink></li>
                     <li><ScrollLink to="Attractions" smooth={true} duration={500}>Attractions</ScrollLink></li>
                     <li><ScrollLink to="services" smooth={true} duration={500}>Services</ScrollLink></li>
                     <li><ScrollLink to="About" smooth={true} duration={500}>About Us</ScrollLink></li>
