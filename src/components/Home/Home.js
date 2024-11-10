@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Header from '../Header/Header';
 import HeroSection from '../Hero/Hero';
 import Culture from '../Culture/Culture';
-import Top from '../Top/Top';
+// import Top from '../Top/Top';
 import Whyvisitiraq from '../Whyvisitiraq/Whyvisitraq';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
@@ -35,7 +35,7 @@ const Home = () => {
       <HeroSection />
       <Whyvisitiraq />
       <Culture />
-      <Top />
+      {/* <Top /> */}
       <About />
       <Footer />
     </div>
