@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import Login from './components/Login/Login';
 // import "slick-carousel/slick/slick.css"; 
 // import "slick-carousel/slick/slick-theme.css";
@@ -8,10 +8,12 @@ import Login from './components/Login/Login';
 // import KorekMountains from './components/Korek Mountains,/KorekMountains';
 // import Attractioncard from './components/Attractioncard/Attractioncard';
 // import Culture from './components/Culture/Culture';
+// import Carsoalculture from './components/Iraqculturelocal/Carsoalculture';
+// import Iraqculturelocal from './components/Iraqculturelocal/Iraqculturelocal'
 
 import { Route, Routes } from 'react-router-dom';
 // import CustomFooter from './components/Footer/Footer'; // Adjust the path as needed
-import Home from './components/Home/Home';
+import Home from './components/Home/Home';  
 
 import ZainabHom from './components/zainabcompones/ZainabHom';
 import Comp1Bookpage from './components/zainabcomp1booking/Comp1Bookpage';
@@ -27,7 +29,7 @@ import Comp3bookpage from './components/zainabcomp3book/Comp3booking';
 function App() {
   return (
     <div>
-      <Routes>
+      { <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Login' element={<Login />} />
 
@@ -37,12 +39,14 @@ function App() {
         <Route path="/Comp3bookpage" element={<Comp3bookpage/>} /> 
 
        
-      </Routes>
+      </Routes> }
       
       {/* <SearchBar/> */}
       {/* <Login/> */}
+      {/* <Carsoalculture/> */}
       {/* <Cards/> */}
       {/* <Header/> */}
+      {/* <Iraqculturelocal/> */}
       {/* <ImageCarousel /> */}
       {/* <Attractioncard/> */}
       {/* <KorekMountains/> */}

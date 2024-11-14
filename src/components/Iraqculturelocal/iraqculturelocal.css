@@ -37,7 +37,7 @@
 
 .hero-videoculture {
     width: 100vw; /* يجعل الفيديو بعرض الشاشة بالكامل */
-    height: 520px; /* يحدد ارتفاع الفيديو إلى 520 بكسل */
+    height: 720px; /* يحدد ارتفاع الفيديو إلى 520 بكسل */
     object-fit: cover; /* لضمان عدم تمدد الفيديو أو انكماشه */
 }
 
@@ -88,6 +88,7 @@
     text-align: left;
     padding-left:6rem ;
     color: #000000;
+    padding-top: 10px;
   }
   
   
@@ -158,6 +159,7 @@ font-family: 'Poppins';
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   font-family: 'Poppins';
+  color: #0442c3;
 }
 
 .abaya{
@@ -171,73 +173,6 @@ font-family: 'Poppins';
   padding-right: 25rem;
 
 }
-  .carousel-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px; /* يمكنك تعديل هذا حسب الحاجة */
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .carousel-slide {
-    position: relative;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .carousel-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-  }
-  
-  .carousel-controls {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-  }
-  
-  .carousel-button {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .carousel-button:hover {
-    background-color: rgba(255, 255, 255, 1);
-  }
-  
-  .carousel-dots {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    border-radius: 50%;
-    background-color: #c5c5c5;
-    cursor: pointer;
-  }
-  
-  .dot.active {
-    background-color: #035E88; /* اللون النشط */
-  }
-  
   /* Services Section */
   .services-sectionculture {
     padding: 4rem 1rem;

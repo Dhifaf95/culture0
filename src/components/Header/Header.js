@@ -28,10 +28,10 @@ const Header = ({ onLoginClick }) => {
                     onLoginClick();  // استدعاء دالة onLoginClick لعرض نموذج تسجيل الدخول
                 }}                    
                    label="Login" 
-                   width='142px' 
+                   width='100px' 
                    height='40px' 
                    className="buttonD" 
-                   fontSize='2rem'
+                   fontSize='20px'
                 />
             </div>
         </header>

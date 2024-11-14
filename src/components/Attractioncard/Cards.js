@@ -36,7 +36,7 @@ const Cards = () => {
             <p className="card__title">{card.title}</p>
             <p className="card__description">{card.description}</p>
             <a href={card.videoLink} target="_blank" rel="noopener noreferrer">
-              <Button label="Learn more" width='142px' height='40px' className="buttonwhy" fontSize='2rem'/>
+              <Button label="Learn more" width='142px' height='40px' className="buttonwhy" fontSize='20px'/>
             </a>
           </div>
         </div>

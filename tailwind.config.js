@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    './src/components/Iraqculturelocal/Carsoalculture.js'
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
-
+};

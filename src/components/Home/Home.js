@@ -8,6 +8,7 @@ import Whyvisitiraq from '../Whyvisitiraq/Whyvisitraq';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
 import Login from '../Login/Login';
+// import Weather from '../Weather/Weather'
 import "./home.css";
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
       <Whyvisitiraq />
       <Culture />
       {/* <Top /> */}
+      {/* <Weather/> */}
       <About />
       <Footer />
     </div>
