@@ -9,7 +9,7 @@ const HeroSection = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleExploreMoreClick = () => {
-    navigate('/Exploremore'); // Navigate to the Exploremore page
+    navigate('/Iraqculturelocal'); // Navigate to the Exploremore page
   };
 
   return (

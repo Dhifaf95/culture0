@@ -24,7 +24,7 @@ const BookingSearch = ({ onSubmit }) => {
   };
 
   return (
-    <div className="booking-container">
+    <div className="booking-container" id="services">
       <form className="booking-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <div className="input-icon">

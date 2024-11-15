@@ -3,7 +3,7 @@ import './culture.css';
 
 const Culture = () => {
   return (
-    <div className='cardcontainer'>
+    <div className='cardcontainer' id="Attractions">
       <div className='text-container'>
         <h2 className='Ano'>Attraction</h2>
         <p className='Hereare'>

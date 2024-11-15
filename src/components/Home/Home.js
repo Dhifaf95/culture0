@@ -16,7 +16,7 @@ const Home = () => {
   const [isLoginVisible, setIsLoginVisible] = useState(false);
 
   const handleNavigate = () => {
-    navigate('/components');
+    navigate('/iraqculture');
   };
 
   return (

@@ -155,7 +155,7 @@ const Iraqculturelocal = () => {
 
 
   return (
-    <div className="video-containerculture">
+    <div className="video-containerculture" id="iraqculture">
       <h1 className="hero-titleculture">Local culture & heritage</h1>
       <video ref={videoRef} autoPlay loop muted className="hero-videoculture">
         <source src={video12} type="video/mp4" />

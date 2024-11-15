@@ -54,7 +54,7 @@ const About = () => {
   };
 
   return (
-    <div className="about-section">
+    <div className="about-section" id='About'>
   
 
       {/* About Section */}
